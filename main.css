@@ -222,6 +222,15 @@ body{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media(max-width:1000px){
+    .blog-container{
+        width: 80%;
+        padding: 10px 20px;
+    
+    }
+}
+
 @media(max-width:900px){
     .games-container{
         grid-template-columns:  1fr 1fr;
@@ -231,11 +240,6 @@ body{
 @media(max-width:768px){
     .nav{
         grid-template-columns: 2fr 1fr;
-    }
-    .blog-container{
-        width: 80%;
-        padding: 10px 20px;
-    
     }
     .games-container{
         grid-template-columns:  1fr;
