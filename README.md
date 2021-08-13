@@ -1,0 +1,1 @@
+This project is a website where you can play games made by young children in Pico-8 fantasy console. Link to the page https://adimustbefunny.github.io/strefapico8/index.html
