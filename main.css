@@ -76,6 +76,16 @@ body{
     margin-top: 50px;
 }
 
+.new-text{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(40px) translateY(-10px)  rotate(30deg);
+    background-color: #e7ff0f;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 .nav{
     width: 100%;
@@ -194,6 +204,7 @@ body{
 }
 
 .game-card-title{
+    position: relative;
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
